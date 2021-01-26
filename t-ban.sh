@@ -20,16 +20,16 @@ lb='/e[1;36m'
 
 #logo
 figlet SL PODDA | lolcat
-echo -e $g "               Tool by Gihan Ishara "
+echo -e $g "\e[1m               Tool by Gihan Ishara "
 echo
 
 #banner 
-echo -e $r "what is your banner name ?"
+echo -e $r "\e[1m\e what is your banner name ?"
 read varB
 echo
 
 #cowsay
-echo -e $r "what is cowsay name? "
+echo -e $r "\e[1what is cowsay name? "
 read varC
 echo
 
